@@ -1,0 +1,46 @@
+
+
+table, tr,td {
+    table-layout: auto;
+    border: 2px solid black;
+}
+td {
+    padding: 25px;
+    text-align: center;
+}
+
+div {
+    font-weight: bold;
+    font-size: large;
+}
+.orange {
+    background-color:  orange;
+}
+.violet {
+    background-color: rgb(67,128,194);
+}    
+.gy {
+    background-color: rgb(182,155,3);
+}
+.yell {
+    background-color: rgb(230, 212, 113);
+}
+.darkPink {
+    background-color: rgb(192, 108, 192);
+}
+.lateBlue {
+    background-color: mediumslateblue;
+}
+.pink {
+    background-color: pink;
+}
+.brown {
+    background-color: rgb(117, 94, 94);
+}
+.green {
+    background-color: green;
+}
+.orangeRed {
+    background-color: rgb(214, 93, 49);
+}
+
