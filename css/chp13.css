@@ -1,0 +1,41 @@
+body, main {
+    width: 960px;
+    height: 780px;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0px auto 10px auto;
+}
+
+.header {
+    width: 940px;
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+}
+
+.resort {
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+figure {
+    display: block;
+}
+
+figure img {
+    width: 240px;
+    height: 300px;
+}
+
+p {
+    width: 225px;
+    text-align: justify
+    padding: 0px auto 10px auto;
+    margin-left: 40px;
+}
+
+input {
+    margin-left: 40px;
+    height: 35px;
+    background-color: lightblue;
+    font-weight: bold;
+}

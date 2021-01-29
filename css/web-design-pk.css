@@ -1,0 +1,80 @@
+body {
+    width: 1020px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto 0px auto;
+}
+.main {
+    width: 100%;
+    height: 800px;
+    background-color: lightgray;
+}
+.under {
+    width: 260px;
+    margin: 0px auto 0px auto;
+    padding:20px;
+    border-bottom: 1px solid gray;
+    
+}
+.header {
+    text-align: center;
+    height: 150px;
+}
+.price {
+    font-size: xx-large;
+    color: yellowgreen;
+    font-weight: bold;
+}
+.premium, .basic, .plus {
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+.premium {
+    width: 330px;
+    margin-left: 10px;
+}
+.plus {
+    width: 330px;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    z-index: 1;
+}
+.basic {
+    width: 330px;
+    position: relative;
+    right: 40px;
+    margin-right: 0px;
+    
+}
+.button1, .button2, .button3 {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.button1, .button3 {
+    width: 310px;
+}
+.button2 {
+    width: 320px;
+    position: relative;
+    bottom: 35px;
+    z-index: 2;
+}
+input {
+    background-color: rgb(49, 129, 221);
+    height: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#all {
+    width: 330px;
+    margin: 10px 100px 30px 330px;
+    background-color: yellowgreen;
+}
+
+
